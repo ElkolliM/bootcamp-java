@@ -1,0 +1,432 @@
+22-23-9 [main] [INFO] --- Neither @ContextConfiguration nor @ContextHierarchy found for test class [com.stackroute.myfirstspringbootrest.service.EmployeeServiceIntegrationTest], using SpringBootContextLoader
+22-23-9 [main] [INFO] --- Could not detect default resource locations for test class [com.stackroute.myfirstspringbootrest.service.EmployeeServiceIntegrationTest]: no resource found for suffixes {-context.xml, Context.groovy}.
+22-23-9 [main] [INFO] --- Could not detect default configuration classes for test class [com.stackroute.myfirstspringbootrest.service.EmployeeServiceIntegrationTest]: EmployeeServiceIntegrationTest does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+22-23-9 [main] [INFO] --- Found @SpringBootConfiguration com.stackroute.myfirstspringbootrest.MyFirstSpringBootRestApplication for test class com.stackroute.myfirstspringbootrest.service.EmployeeServiceIntegrationTest
+22-23-9 [main] [INFO] --- Loaded default TestExecutionListener class names from location [META-INF/spring.factories]: [org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener, org.springframework.boot.test.autoconfigure.webservices.client.MockWebServiceServerTestExecutionListener, org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener, org.springframework.test.context.event.ApplicationEventsTestExecutionListener, org.springframework.test.context.support.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener, org.springframework.test.context.event.EventPublishingTestExecutionListener]
+22-23-9 [main] [INFO] --- Using TestExecutionListeners: [org.springframework.test.context.web.ServletTestExecutionListener@452ba1db, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener@2289aca5, org.springframework.test.context.event.ApplicationEventsTestExecutionListener@76a36b71, org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener@184497d1, org.springframework.boot.test.autoconfigure.SpringBootDependencyInjectionTestExecutionListener@f9d87b, org.springframework.test.context.support.DirtiesContextTestExecutionListener@6ffab045, org.springframework.test.context.transaction.TransactionalTestExecutionListener@26fb628, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener@3e2943ab, org.springframework.test.context.event.EventPublishingTestExecutionListener@70dd7e15, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener@4a9f80d3, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener@35beb15e, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener@41fe9859, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener@5ac86ba5, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener@6c67e137, org.springframework.boot.test.autoconfigure.webservices.client.MockWebServiceServerTestExecutionListener@2c9399a4]
+22-23-9 [main] [INFO] --- Starting EmployeeServiceIntegrationTest using Java 11 on STR-BLR-DEEPAN with PID 36270 (started by deepan in /home/deepan/Desktop/cgi-canada-spring-ws/my-first-spring-boot-rest)
+22-23-9 [main] [INFO] --- No active profile set, falling back to 1 default profile: "default"
+22-23-9 [main] [INFO] --- Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+22-23-9 [main] [INFO] --- Finished Spring Data repository scanning in 145 ms. Found 1 JPA repository interfaces.
+22-23-9 [main] [INFO] --- HHH000204: Processing PersistenceUnitInfo [name: default]
+22-23-9 [main] [INFO] --- HHH000412: Hibernate ORM core version 5.6.5.Final
+22-23-9 [main] [INFO] --- HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+22-23-9 [main] [INFO] --- HikariPool-1 - Starting...
+22-23-9 [main] [INFO] --- HikariPool-1 - Start completed.
+22-23-9 [main] [INFO] --- HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+22-23-9 [main] [INFO] --- HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+22-23-9 [main] [INFO] --- Initialized JPA EntityManagerFactory for persistence unit 'default'
+22-23-9 [main] [WARN] --- spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+22-23-9 [main] [INFO] --- H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:cgicanada'
+22-23-9 [main] [INFO] --- Started EmployeeServiceIntegrationTest in 15.497 seconds (JVM running for 18.255)
+22-23-9 [main] [INFO] --- getEmployeeById Method throwing exception com.stackroute.myfirstspringbootrest.exceptions.EmployeeWithTheIDNotPresentException
+22-23-9 [SpringApplicationShutdownHook] [INFO] --- Closing JPA EntityManagerFactory for persistence unit 'default'
+22-23-9 [SpringApplicationShutdownHook] [INFO] --- HikariPool-1 - Shutdown initiated...
+22-23-9 [SpringApplicationShutdownHook] [INFO] --- HikariPool-1 - Shutdown completed.
+22-24-9 [main] [INFO] --- Neither @ContextConfiguration nor @ContextHierarchy found for test class [com.stackroute.myfirstspringbootrest.service.EmployeeServiceIntegrationTest], using SpringBootContextLoader
+22-24-9 [main] [INFO] --- Could not detect default resource locations for test class [com.stackroute.myfirstspringbootrest.service.EmployeeServiceIntegrationTest]: no resource found for suffixes {-context.xml, Context.groovy}.
+22-24-9 [main] [INFO] --- Could not detect default configuration classes for test class [com.stackroute.myfirstspringbootrest.service.EmployeeServiceIntegrationTest]: EmployeeServiceIntegrationTest does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+22-24-9 [main] [INFO] --- Found @SpringBootConfiguration com.stackroute.myfirstspringbootrest.MyFirstSpringBootRestApplication for test class com.stackroute.myfirstspringbootrest.service.EmployeeServiceIntegrationTest
+22-24-9 [main] [INFO] --- Loaded default TestExecutionListener class names from location [META-INF/spring.factories]: [org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener, org.springframework.boot.test.autoconfigure.webservices.client.MockWebServiceServerTestExecutionListener, org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener, org.springframework.test.context.event.ApplicationEventsTestExecutionListener, org.springframework.test.context.support.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener, org.springframework.test.context.event.EventPublishingTestExecutionListener]
+22-24-9 [main] [INFO] --- Using TestExecutionListeners: [org.springframework.test.context.web.ServletTestExecutionListener@3e2943ab, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener@70dd7e15, org.springframework.test.context.event.ApplicationEventsTestExecutionListener@4a9f80d3, org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener@35beb15e, org.springframework.boot.test.autoconfigure.SpringBootDependencyInjectionTestExecutionListener@41fe9859, org.springframework.test.context.support.DirtiesContextTestExecutionListener@5ac86ba5, org.springframework.test.context.transaction.TransactionalTestExecutionListener@6c67e137, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener@2c9399a4, org.springframework.test.context.event.EventPublishingTestExecutionListener@191ae03f, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener@9635fa, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener@53ab0286, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener@63c5efee, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener@2d10e0b1, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener@1c98290c, org.springframework.boot.test.autoconfigure.webservices.client.MockWebServiceServerTestExecutionListener@172ca72b]
+22-24-9 [main] [INFO] --- Starting EmployeeServiceIntegrationTest using Java 11 on STR-BLR-DEEPAN with PID 36360 (started by deepan in /home/deepan/Desktop/cgi-canada-spring-ws/my-first-spring-boot-rest)
+22-24-9 [main] [INFO] --- No active profile set, falling back to 1 default profile: "default"
+22-24-9 [main] [INFO] --- Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+22-24-9 [main] [INFO] --- Finished Spring Data repository scanning in 108 ms. Found 1 JPA repository interfaces.
+22-24-9 [main] [INFO] --- HHH000204: Processing PersistenceUnitInfo [name: default]
+22-24-9 [main] [INFO] --- HHH000412: Hibernate ORM core version 5.6.5.Final
+22-24-9 [main] [INFO] --- HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+22-24-9 [main] [INFO] --- HikariPool-1 - Starting...
+22-24-9 [main] [INFO] --- HikariPool-1 - Start completed.
+22-24-9 [main] [INFO] --- HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+22-24-9 [main] [INFO] --- HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+22-24-9 [main] [INFO] --- Initialized JPA EntityManagerFactory for persistence unit 'default'
+22-24-9 [main] [WARN] --- spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+22-24-9 [main] [INFO] --- H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:cgicanada'
+22-24-9 [main] [INFO] --- Started EmployeeServiceIntegrationTest in 13.962 seconds (JVM running for 17.01)
+22-24-9 [main] [INFO] --- getEmployeeById Method throwing exception com.stackroute.myfirstspringbootrest.exceptions.EmployeeWithTheIDNotPresentException
+22-24-9 [SpringApplicationShutdownHook] [INFO] --- Closing JPA EntityManagerFactory for persistence unit 'default'
+22-24-9 [SpringApplicationShutdownHook] [INFO] --- HikariPool-1 - Shutdown initiated...
+22-24-9 [SpringApplicationShutdownHook] [INFO] --- HikariPool-1 - Shutdown completed.
+22-26-9 [main] [INFO] --- Neither @ContextConfiguration nor @ContextHierarchy found for test class [com.stackroute.myfirstspringbootrest.service.EmployeeServiceIntegrationTest], using SpringBootContextLoader
+22-26-9 [main] [INFO] --- Could not detect default resource locations for test class [com.stackroute.myfirstspringbootrest.service.EmployeeServiceIntegrationTest]: no resource found for suffixes {-context.xml, Context.groovy}.
+22-26-9 [main] [INFO] --- Could not detect default configuration classes for test class [com.stackroute.myfirstspringbootrest.service.EmployeeServiceIntegrationTest]: EmployeeServiceIntegrationTest does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+22-26-9 [main] [INFO] --- Found @SpringBootConfiguration com.stackroute.myfirstspringbootrest.MyFirstSpringBootRestApplication for test class com.stackroute.myfirstspringbootrest.service.EmployeeServiceIntegrationTest
+22-26-9 [main] [INFO] --- Loaded default TestExecutionListener class names from location [META-INF/spring.factories]: [org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener, org.springframework.boot.test.autoconfigure.webservices.client.MockWebServiceServerTestExecutionListener, org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener, org.springframework.test.context.event.ApplicationEventsTestExecutionListener, org.springframework.test.context.support.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener, org.springframework.test.context.event.EventPublishingTestExecutionListener]
+22-26-9 [main] [INFO] --- Using TestExecutionListeners: [org.springframework.test.context.web.ServletTestExecutionListener@6d0b5baf, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener@631e06ab, org.springframework.test.context.event.ApplicationEventsTestExecutionListener@2a3591c5, org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener@34a75079, org.springframework.boot.test.autoconfigure.SpringBootDependencyInjectionTestExecutionListener@346a361, org.springframework.test.context.support.DirtiesContextTestExecutionListener@107ed6fc, org.springframework.test.context.transaction.TransactionalTestExecutionListener@1643d68f, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener@186978a6, org.springframework.test.context.event.EventPublishingTestExecutionListener@2e029d61, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener@482d776b, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener@4052274f, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener@132ddbab, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener@297ea53a, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener@acb0951, org.springframework.boot.test.autoconfigure.webservices.client.MockWebServiceServerTestExecutionListener@5bf22f18]
+22-26-9 [main] [INFO] --- Starting EmployeeServiceIntegrationTest using Java 11 on STR-BLR-DEEPAN with PID 36449 (started by deepan in /home/deepan/Desktop/cgi-canada-spring-ws/my-first-spring-boot-rest)
+22-26-9 [main] [INFO] --- No active profile set, falling back to 1 default profile: "default"
+22-26-9 [main] [INFO] --- Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+22-26-9 [main] [INFO] --- Finished Spring Data repository scanning in 118 ms. Found 1 JPA repository interfaces.
+22-26-9 [main] [INFO] --- HHH000204: Processing PersistenceUnitInfo [name: default]
+22-26-9 [main] [INFO] --- HHH000412: Hibernate ORM core version 5.6.5.Final
+22-26-9 [main] [INFO] --- HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+22-26-9 [main] [INFO] --- HikariPool-1 - Starting...
+22-26-9 [main] [INFO] --- HikariPool-1 - Start completed.
+22-26-9 [main] [INFO] --- HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+22-26-9 [main] [INFO] --- HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+22-26-9 [main] [INFO] --- Initialized JPA EntityManagerFactory for persistence unit 'default'
+22-26-9 [main] [WARN] --- spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+22-26-9 [main] [INFO] --- H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:cgicanada'
+22-26-9 [main] [INFO] --- Started EmployeeServiceIntegrationTest in 14.434 seconds (JVM running for 16.991)
+22-26-9 [main] [INFO] --- getEmployeeById Method throwing exception com.stackroute.myfirstspringbootrest.exceptions.EmployeeWithTheIDNotPresentException
+22-26-9 [SpringApplicationShutdownHook] [INFO] --- Closing JPA EntityManagerFactory for persistence unit 'default'
+22-26-9 [SpringApplicationShutdownHook] [INFO] --- HikariPool-1 - Shutdown initiated...
+22-26-9 [SpringApplicationShutdownHook] [INFO] --- HikariPool-1 - Shutdown completed.
+22-27-9 [main] [INFO] --- Neither @ContextConfiguration nor @ContextHierarchy found for test class [com.stackroute.myfirstspringbootrest.service.EmployeeServiceIntegrationTest], using SpringBootContextLoader
+22-27-9 [main] [INFO] --- Could not detect default resource locations for test class [com.stackroute.myfirstspringbootrest.service.EmployeeServiceIntegrationTest]: no resource found for suffixes {-context.xml, Context.groovy}.
+22-27-9 [main] [INFO] --- Could not detect default configuration classes for test class [com.stackroute.myfirstspringbootrest.service.EmployeeServiceIntegrationTest]: EmployeeServiceIntegrationTest does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+22-27-9 [main] [INFO] --- Found @SpringBootConfiguration com.stackroute.myfirstspringbootrest.MyFirstSpringBootRestApplication for test class com.stackroute.myfirstspringbootrest.service.EmployeeServiceIntegrationTest
+22-27-9 [main] [INFO] --- Loaded default TestExecutionListener class names from location [META-INF/spring.factories]: [org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener, org.springframework.boot.test.autoconfigure.webservices.client.MockWebServiceServerTestExecutionListener, org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener, org.springframework.test.context.event.ApplicationEventsTestExecutionListener, org.springframework.test.context.support.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener, org.springframework.test.context.event.EventPublishingTestExecutionListener]
+22-27-9 [main] [INFO] --- Using TestExecutionListeners: [org.springframework.test.context.web.ServletTestExecutionListener@533b266e, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener@6d1d4d7, org.springframework.test.context.event.ApplicationEventsTestExecutionListener@89ff02e, org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener@6865c751, org.springframework.boot.test.autoconfigure.SpringBootDependencyInjectionTestExecutionListener@62679465, org.springframework.test.context.support.DirtiesContextTestExecutionListener@6a988392, org.springframework.test.context.transaction.TransactionalTestExecutionListener@1d71006f, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener@5b6813df, org.springframework.test.context.event.EventPublishingTestExecutionListener@5f2606b, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener@2b58f754, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener@3ebff828, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener@2552f2cb, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener@33352f32, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener@5f3b9c57, org.springframework.boot.test.autoconfigure.webservices.client.MockWebServiceServerTestExecutionListener@1e044120]
+22-27-9 [main] [INFO] --- Starting EmployeeServiceIntegrationTest using Java 11 on STR-BLR-DEEPAN with PID 36551 (started by deepan in /home/deepan/Desktop/cgi-canada-spring-ws/my-first-spring-boot-rest)
+22-27-9 [main] [INFO] --- No active profile set, falling back to 1 default profile: "default"
+22-27-9 [main] [INFO] --- Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+22-27-9 [main] [INFO] --- Finished Spring Data repository scanning in 126 ms. Found 1 JPA repository interfaces.
+22-27-9 [main] [INFO] --- HHH000204: Processing PersistenceUnitInfo [name: default]
+22-27-9 [main] [INFO] --- HHH000412: Hibernate ORM core version 5.6.5.Final
+22-27-9 [main] [INFO] --- HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+22-27-9 [main] [INFO] --- HikariPool-1 - Starting...
+22-27-9 [main] [INFO] --- HikariPool-1 - Start completed.
+22-27-9 [main] [INFO] --- HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+22-27-9 [main] [INFO] --- HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+22-27-9 [main] [INFO] --- Initialized JPA EntityManagerFactory for persistence unit 'default'
+22-28-9 [main] [WARN] --- spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+22-28-9 [main] [INFO] --- H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:cgicanada'
+22-28-9 [main] [INFO] --- Started EmployeeServiceIntegrationTest in 15.28 seconds (JVM running for 18.028)
+22-28-9 [SpringApplicationShutdownHook] [INFO] --- Closing JPA EntityManagerFactory for persistence unit 'default'
+22-28-9 [SpringApplicationShutdownHook] [INFO] --- HikariPool-1 - Shutdown initiated...
+22-28-9 [SpringApplicationShutdownHook] [INFO] --- HikariPool-1 - Shutdown completed.
+22-28-9 [main] [INFO] --- Neither @ContextConfiguration nor @ContextHierarchy found for test class [com.stackroute.myfirstspringbootrest.service.EmployeeServiceIntegrationTest], using SpringBootContextLoader
+22-28-9 [main] [INFO] --- Could not detect default resource locations for test class [com.stackroute.myfirstspringbootrest.service.EmployeeServiceIntegrationTest]: no resource found for suffixes {-context.xml, Context.groovy}.
+22-28-9 [main] [INFO] --- Could not detect default configuration classes for test class [com.stackroute.myfirstspringbootrest.service.EmployeeServiceIntegrationTest]: EmployeeServiceIntegrationTest does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+22-28-9 [main] [INFO] --- Found @SpringBootConfiguration com.stackroute.myfirstspringbootrest.MyFirstSpringBootRestApplication for test class com.stackroute.myfirstspringbootrest.service.EmployeeServiceIntegrationTest
+22-28-9 [main] [INFO] --- Loaded default TestExecutionListener class names from location [META-INF/spring.factories]: [org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener, org.springframework.boot.test.autoconfigure.webservices.client.MockWebServiceServerTestExecutionListener, org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener, org.springframework.test.context.event.ApplicationEventsTestExecutionListener, org.springframework.test.context.support.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener, org.springframework.test.context.event.EventPublishingTestExecutionListener]
+22-28-9 [main] [INFO] --- Using TestExecutionListeners: [org.springframework.test.context.web.ServletTestExecutionListener@184497d1, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener@f9d87b, org.springframework.test.context.event.ApplicationEventsTestExecutionListener@6ffab045, org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener@26fb628, org.springframework.boot.test.autoconfigure.SpringBootDependencyInjectionTestExecutionListener@3e2943ab, org.springframework.test.context.support.DirtiesContextTestExecutionListener@70dd7e15, org.springframework.test.context.transaction.TransactionalTestExecutionListener@4a9f80d3, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener@35beb15e, org.springframework.test.context.event.EventPublishingTestExecutionListener@41fe9859, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener@5ac86ba5, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener@6c67e137, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener@2c9399a4, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener@191ae03f, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener@9635fa, org.springframework.boot.test.autoconfigure.webservices.client.MockWebServiceServerTestExecutionListener@53ab0286]
+22-28-9 [main] [INFO] --- Starting EmployeeServiceIntegrationTest using Java 11 on STR-BLR-DEEPAN with PID 36619 (started by deepan in /home/deepan/Desktop/cgi-canada-spring-ws/my-first-spring-boot-rest)
+22-28-9 [main] [INFO] --- No active profile set, falling back to 1 default profile: "default"
+22-28-9 [main] [INFO] --- Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+22-28-9 [main] [INFO] --- Finished Spring Data repository scanning in 106 ms. Found 1 JPA repository interfaces.
+22-28-9 [main] [INFO] --- HHH000204: Processing PersistenceUnitInfo [name: default]
+22-28-9 [main] [INFO] --- HHH000412: Hibernate ORM core version 5.6.5.Final
+22-28-9 [main] [INFO] --- HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+22-28-9 [main] [INFO] --- HikariPool-1 - Starting...
+22-28-9 [main] [INFO] --- HikariPool-1 - Start completed.
+22-28-9 [main] [INFO] --- HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+22-28-9 [main] [INFO] --- HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+22-28-9 [main] [INFO] --- Initialized JPA EntityManagerFactory for persistence unit 'default'
+22-28-9 [main] [WARN] --- spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+22-28-9 [main] [INFO] --- H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:cgicanada'
+22-28-9 [main] [INFO] --- Started EmployeeServiceIntegrationTest in 13.093 seconds (JVM running for 15.69)
+22-28-9 [SpringApplicationShutdownHook] [INFO] --- Closing JPA EntityManagerFactory for persistence unit 'default'
+22-28-9 [SpringApplicationShutdownHook] [INFO] --- HikariPool-1 - Shutdown initiated...
+22-28-9 [SpringApplicationShutdownHook] [INFO] --- HikariPool-1 - Shutdown completed.
+22-32-9 [main] [INFO] --- Neither @ContextConfiguration nor @ContextHierarchy found for test class [com.stackroute.myfirstspringbootrest.service.EmployeeServiceIntegrationTest], using SpringBootContextLoader
+22-32-9 [main] [INFO] --- Could not detect default resource locations for test class [com.stackroute.myfirstspringbootrest.service.EmployeeServiceIntegrationTest]: no resource found for suffixes {-context.xml, Context.groovy}.
+22-32-9 [main] [INFO] --- Could not detect default configuration classes for test class [com.stackroute.myfirstspringbootrest.service.EmployeeServiceIntegrationTest]: EmployeeServiceIntegrationTest does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+22-32-9 [main] [INFO] --- Found @SpringBootConfiguration com.stackroute.myfirstspringbootrest.MyFirstSpringBootRestApplication for test class com.stackroute.myfirstspringbootrest.service.EmployeeServiceIntegrationTest
+22-32-9 [main] [INFO] --- Loaded default TestExecutionListener class names from location [META-INF/spring.factories]: [org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener, org.springframework.boot.test.autoconfigure.webservices.client.MockWebServiceServerTestExecutionListener, org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener, org.springframework.test.context.event.ApplicationEventsTestExecutionListener, org.springframework.test.context.support.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener, org.springframework.test.context.event.EventPublishingTestExecutionListener]
+22-32-9 [main] [INFO] --- Using TestExecutionListeners: [org.springframework.test.context.web.ServletTestExecutionListener@eb6449b, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener@7c351808, org.springframework.test.context.event.ApplicationEventsTestExecutionListener@180e6ac4, org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener@42b64ab8, org.springframework.boot.test.autoconfigure.SpringBootDependencyInjectionTestExecutionListener@7e985ce9, org.springframework.test.context.support.DirtiesContextTestExecutionListener@2a39fe6a, org.springframework.test.context.transaction.TransactionalTestExecutionListener@410ae9a3, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener@319988b0, org.springframework.test.context.event.EventPublishingTestExecutionListener@d5ae57e, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener@68759011, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener@7e242b4d, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener@305f031, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener@592e843a, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener@1d1f7216, org.springframework.boot.test.autoconfigure.webservices.client.MockWebServiceServerTestExecutionListener@423e4cbb]
+22-32-9 [main] [INFO] --- Starting EmployeeServiceIntegrationTest using Java 11 on STR-BLR-DEEPAN with PID 36911 (started by deepan in /home/deepan/Desktop/cgi-canada-spring-ws/my-first-spring-boot-rest)
+22-32-9 [main] [INFO] --- No active profile set, falling back to 1 default profile: "default"
+22-32-9 [main] [INFO] --- Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+22-32-9 [main] [INFO] --- Finished Spring Data repository scanning in 164 ms. Found 1 JPA repository interfaces.
+22-32-9 [main] [INFO] --- HHH000204: Processing PersistenceUnitInfo [name: default]
+22-32-9 [main] [INFO] --- HHH000412: Hibernate ORM core version 5.6.5.Final
+22-32-9 [main] [INFO] --- HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+22-32-9 [main] [INFO] --- HikariPool-1 - Starting...
+22-32-9 [main] [INFO] --- HikariPool-1 - Start completed.
+22-32-9 [main] [INFO] --- HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+22-32-9 [main] [INFO] --- HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+22-32-9 [main] [INFO] --- Initialized JPA EntityManagerFactory for persistence unit 'default'
+22-32-9 [main] [WARN] --- spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+22-32-9 [main] [INFO] --- H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:cgicanada'
+22-32-9 [main] [INFO] --- Started EmployeeServiceIntegrationTest in 14.724 seconds (JVM running for 17.615)
+22-32-9 [main] [INFO] --- getEmployeeById Method throwing exception com.stackroute.myfirstspringbootrest.exceptions.EmployeeWithTheIDNotPresentException
+22-32-9 [SpringApplicationShutdownHook] [INFO] --- Closing JPA EntityManagerFactory for persistence unit 'default'
+22-32-9 [SpringApplicationShutdownHook] [INFO] --- HikariPool-1 - Shutdown initiated...
+22-32-9 [SpringApplicationShutdownHook] [INFO] --- HikariPool-1 - Shutdown completed.
+22-51-9 [main] [INFO] --- Initializing Spring TestDispatcherServlet ''
+22-51-9 [main] [INFO] --- Initializing Servlet ''
+22-51-9 [main] [INFO] --- Completed initialization in 8 ms
+22-54-9 [main] [INFO] --- Initializing Spring TestDispatcherServlet ''
+22-54-9 [main] [INFO] --- Initializing Servlet ''
+22-54-9 [main] [INFO] --- Completed initialization in 5 ms
+22-55-9 [main] [INFO] --- Initializing Spring TestDispatcherServlet ''
+22-55-9 [main] [INFO] --- Initializing Servlet ''
+22-55-9 [main] [INFO] --- Completed initialization in 9 ms
+22-59-9 [main] [INFO] --- Initializing Spring TestDispatcherServlet ''
+22-59-9 [main] [INFO] --- Initializing Servlet ''
+22-59-9 [main] [INFO] --- Completed initialization in 17 ms
+22-00-9 [main] [INFO] --- Initializing Spring TestDispatcherServlet ''
+22-00-9 [main] [INFO] --- Initializing Servlet ''
+22-00-9 [main] [INFO] --- Completed initialization in 6 ms
+22-02-9 [main] [INFO] --- Initializing Spring TestDispatcherServlet ''
+22-02-9 [main] [INFO] --- Initializing Servlet ''
+22-02-9 [main] [INFO] --- Completed initialization in 5 ms
+22-04-9 [main] [INFO] --- Initializing Spring TestDispatcherServlet ''
+22-04-9 [main] [INFO] --- Initializing Servlet ''
+22-04-9 [main] [INFO] --- Completed initialization in 13 ms
+22-04-9 [main] [INFO] --- Initializing Spring TestDispatcherServlet ''
+22-04-9 [main] [INFO] --- Initializing Servlet ''
+22-04-9 [main] [INFO] --- Completed initialization in 11 ms
+22-15-9 [main] [INFO] --- Initializing Spring TestDispatcherServlet ''
+22-15-9 [main] [INFO] --- Initializing Servlet ''
+22-15-9 [main] [INFO] --- Completed initialization in 8 ms
+22-16-9 [main] [INFO] --- Initializing Spring TestDispatcherServlet ''
+22-16-9 [main] [INFO] --- Initializing Servlet ''
+22-16-9 [main] [INFO] --- Completed initialization in 9 ms
+22-16-9 [main] [INFO] --- Initializing Spring TestDispatcherServlet ''
+22-16-9 [main] [INFO] --- Initializing Servlet ''
+22-16-9 [main] [INFO] --- Completed initialization in 4 ms
+22-16-9 [main] [INFO] --- Initializing Spring TestDispatcherServlet ''
+22-16-9 [main] [INFO] --- Initializing Servlet ''
+22-16-9 [main] [INFO] --- Completed initialization in 0 ms
+22-16-9 [main] [INFO] --- Initializing Spring TestDispatcherServlet ''
+22-16-9 [main] [INFO] --- Initializing Servlet ''
+22-16-9 [main] [INFO] --- Completed initialization in 0 ms
+22-30-9 [main] [INFO] --- Initializing Spring TestDispatcherServlet ''
+22-30-9 [main] [INFO] --- Initializing Servlet ''
+22-30-9 [main] [INFO] --- Completed initialization in 11 ms
+22-30-9 [main] [INFO] --- Initializing Spring TestDispatcherServlet ''
+22-30-9 [main] [INFO] --- Initializing Servlet ''
+22-30-9 [main] [INFO] --- Completed initialization in 1 ms
+22-30-9 [main] [INFO] --- Initializing Spring TestDispatcherServlet ''
+22-30-9 [main] [INFO] --- Initializing Servlet ''
+22-30-9 [main] [INFO] --- Completed initialization in 1 ms
+22-30-9 [main] [INFO] --- Initializing Spring TestDispatcherServlet ''
+22-30-9 [main] [INFO] --- Initializing Servlet ''
+22-30-9 [main] [INFO] --- Completed initialization in 0 ms
+22-31-9 [main] [INFO] --- Initializing Spring TestDispatcherServlet ''
+22-31-9 [main] [INFO] --- Initializing Servlet ''
+22-31-9 [main] [INFO] --- Completed initialization in 7 ms
+22-31-9 [main] [INFO] --- Initializing Spring TestDispatcherServlet ''
+22-31-9 [main] [INFO] --- Initializing Servlet ''
+22-31-9 [main] [INFO] --- Completed initialization in 0 ms
+22-31-9 [main] [INFO] --- Initializing Spring TestDispatcherServlet ''
+22-31-9 [main] [INFO] --- Initializing Servlet ''
+22-31-9 [main] [INFO] --- Completed initialization in 0 ms
+22-31-9 [main] [INFO] --- Initializing Spring TestDispatcherServlet ''
+22-31-9 [main] [INFO] --- Initializing Servlet ''
+22-31-9 [main] [INFO] --- Completed initialization in 0 ms
+22-33-9 [main] [INFO] --- Initializing Spring TestDispatcherServlet ''
+22-33-9 [main] [INFO] --- Initializing Servlet ''
+22-33-9 [main] [INFO] --- Completed initialization in 4 ms
+22-33-9 [main] [INFO] --- Initializing Spring TestDispatcherServlet ''
+22-33-9 [main] [INFO] --- Initializing Servlet ''
+22-33-9 [main] [INFO] --- Completed initialization in 0 ms
+22-33-9 [main] [INFO] --- Initializing Spring TestDispatcherServlet ''
+22-33-9 [main] [INFO] --- Initializing Servlet ''
+22-33-9 [main] [INFO] --- Completed initialization in 0 ms
+22-33-9 [main] [INFO] --- Initializing Spring TestDispatcherServlet ''
+22-33-9 [main] [INFO] --- Initializing Servlet ''
+22-33-9 [main] [INFO] --- Completed initialization in 0 ms
+22-36-9 [main] [INFO] --- Initializing Spring TestDispatcherServlet ''
+22-36-9 [main] [INFO] --- Initializing Servlet ''
+22-36-9 [main] [INFO] --- Completed initialization in 5 ms
+22-36-9 [main] [INFO] --- Initializing Spring TestDispatcherServlet ''
+22-36-9 [main] [INFO] --- Initializing Servlet ''
+22-36-9 [main] [INFO] --- Completed initialization in 0 ms
+22-36-9 [main] [INFO] --- Initializing Spring TestDispatcherServlet ''
+22-36-9 [main] [INFO] --- Initializing Servlet ''
+22-36-9 [main] [INFO] --- Completed initialization in 0 ms
+22-36-9 [main] [INFO] --- Initializing Spring TestDispatcherServlet ''
+22-36-9 [main] [INFO] --- Initializing Servlet ''
+22-36-9 [main] [INFO] --- Completed initialization in 0 ms
+22-36-9 [main] [INFO] --- Initializing Spring TestDispatcherServlet ''
+22-36-9 [main] [INFO] --- Initializing Servlet ''
+22-36-9 [main] [INFO] --- Completed initialization in 1 ms
+22-37-9 [main] [INFO] --- Initializing Spring TestDispatcherServlet ''
+22-37-9 [main] [INFO] --- Initializing Servlet ''
+22-37-9 [main] [INFO] --- Completed initialization in 4 ms
+22-37-9 [main] [INFO] --- Initializing Spring TestDispatcherServlet ''
+22-37-9 [main] [INFO] --- Initializing Servlet ''
+22-37-9 [main] [INFO] --- Completed initialization in 0 ms
+22-37-9 [main] [INFO] --- Initializing Spring TestDispatcherServlet ''
+22-37-9 [main] [INFO] --- Initializing Servlet ''
+22-37-9 [main] [INFO] --- Completed initialization in 0 ms
+22-37-9 [main] [INFO] --- Initializing Spring TestDispatcherServlet ''
+22-37-9 [main] [INFO] --- Initializing Servlet ''
+22-37-9 [main] [INFO] --- Completed initialization in 0 ms
+22-37-9 [main] [INFO] --- Initializing Spring TestDispatcherServlet ''
+22-37-9 [main] [INFO] --- Initializing Servlet ''
+22-37-9 [main] [INFO] --- Completed initialization in 1 ms
+22-38-9 [main] [INFO] --- Initializing Spring TestDispatcherServlet ''
+22-38-9 [main] [INFO] --- Initializing Servlet ''
+22-38-9 [main] [INFO] --- Completed initialization in 14 ms
+22-38-9 [main] [INFO] --- Initializing Spring TestDispatcherServlet ''
+22-38-9 [main] [INFO] --- Initializing Servlet ''
+22-38-9 [main] [INFO] --- Completed initialization in 0 ms
+22-38-9 [main] [INFO] --- Initializing Spring TestDispatcherServlet ''
+22-38-9 [main] [INFO] --- Initializing Servlet ''
+22-38-9 [main] [INFO] --- Completed initialization in 0 ms
+22-38-9 [main] [INFO] --- Initializing Spring TestDispatcherServlet ''
+22-38-9 [main] [INFO] --- Initializing Servlet ''
+22-38-9 [main] [INFO] --- Completed initialization in 0 ms
+22-38-9 [main] [INFO] --- Initializing Spring TestDispatcherServlet ''
+22-38-9 [main] [INFO] --- Initializing Servlet ''
+22-38-9 [main] [INFO] --- Completed initialization in 0 ms
+22-42-9 [main] [INFO] --- Initializing Spring TestDispatcherServlet ''
+22-42-9 [main] [INFO] --- Initializing Servlet ''
+22-42-9 [main] [INFO] --- Completed initialization in 4 ms
+22-47-9 [main] [INFO] --- Neither @ContextConfiguration nor @ContextHierarchy found for test class [com.stackroute.myfirstspringbootrest.controller.EmployeeControllerIntegrationTest], using SpringBootContextLoader
+22-47-9 [main] [INFO] --- Could not detect default resource locations for test class [com.stackroute.myfirstspringbootrest.controller.EmployeeControllerIntegrationTest]: no resource found for suffixes {-context.xml, Context.groovy}.
+22-47-9 [main] [INFO] --- Could not detect default configuration classes for test class [com.stackroute.myfirstspringbootrest.controller.EmployeeControllerIntegrationTest]: EmployeeControllerIntegrationTest does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+22-47-9 [main] [INFO] --- Found @SpringBootConfiguration com.stackroute.myfirstspringbootrest.MyFirstSpringBootRestApplication for test class com.stackroute.myfirstspringbootrest.controller.EmployeeControllerIntegrationTest
+22-47-9 [main] [INFO] --- Loaded default TestExecutionListener class names from location [META-INF/spring.factories]: [org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener, org.springframework.boot.test.autoconfigure.webservices.client.MockWebServiceServerTestExecutionListener, org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener, org.springframework.test.context.event.ApplicationEventsTestExecutionListener, org.springframework.test.context.support.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener, org.springframework.test.context.event.EventPublishingTestExecutionListener]
+22-47-9 [main] [INFO] --- Using TestExecutionListeners: [org.springframework.test.context.web.ServletTestExecutionListener@2d10e0b1, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener@1c98290c, org.springframework.test.context.event.ApplicationEventsTestExecutionListener@172ca72b, org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener@5bda80bf, org.springframework.boot.test.autoconfigure.SpringBootDependencyInjectionTestExecutionListener@71e5f61d, org.springframework.test.context.support.DirtiesContextTestExecutionListener@2ce86164, org.springframework.test.context.transaction.TransactionalTestExecutionListener@5e8f9e2d, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener@51df223b, org.springframework.test.context.event.EventPublishingTestExecutionListener@fd46303, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener@60d8c0dc, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener@4204541c, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener@6a62689d, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener@4602c2a9, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener@60fa3495, org.springframework.boot.test.autoconfigure.webservices.client.MockWebServiceServerTestExecutionListener@3e2822]
+22-47-9 [main] [INFO] --- Starting EmployeeControllerIntegrationTest using Java 11 on STR-BLR-DEEPAN with PID 43451 (started by deepan in /home/deepan/Desktop/cgi-canada-spring-ws/my-first-spring-boot-rest)
+22-47-9 [main] [INFO] --- No active profile set, falling back to 1 default profile: "default"
+22-47-9 [main] [INFO] --- Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+22-47-9 [main] [INFO] --- Finished Spring Data repository scanning in 154 ms. Found 1 JPA repository interfaces.
+22-47-9 [main] [INFO] --- HHH000204: Processing PersistenceUnitInfo [name: default]
+22-47-9 [main] [INFO] --- HHH000412: Hibernate ORM core version 5.6.5.Final
+22-47-9 [main] [INFO] --- HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+22-47-9 [main] [INFO] --- HikariPool-1 - Starting...
+22-47-9 [main] [INFO] --- HikariPool-1 - Start completed.
+22-47-9 [main] [INFO] --- HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+22-47-9 [main] [INFO] --- HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+22-47-9 [main] [INFO] --- Initialized JPA EntityManagerFactory for persistence unit 'default'
+22-47-9 [main] [WARN] --- spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+22-48-9 [main] [INFO] --- H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:cgicanada'
+22-48-9 [main] [INFO] --- Started EmployeeControllerIntegrationTest in 15.115 seconds (JVM running for 17.689)
+22-48-9 [main] [INFO] --- Initializing Spring TestDispatcherServlet ''
+22-48-9 [main] [INFO] --- Initializing Servlet ''
+22-48-9 [main] [INFO] --- Completed initialization in 1 ms
+22-48-9 [main] [INFO] --- getEmployeeByIdHandler Method started its execution with [400]
+22-48-9 [main] [INFO] --- getEmployeeById Method throwing exception com.stackroute.myfirstspringbootrest.exceptions.EmployeeWithTheIDNotPresentException
+22-48-9 [main] [INFO] --- getEmployeeByIdHandler Method Returns Value: <404 NOT_FOUND Not Found,Employee Not Found,[]>
+22-48-9 [main] [INFO] --- getEmployeeByIdHandler Method completed its execution with
+22-48-9 [SpringApplicationShutdownHook] [INFO] --- Closing JPA EntityManagerFactory for persistence unit 'default'
+22-48-9 [SpringApplicationShutdownHook] [INFO] --- HikariPool-1 - Shutdown initiated...
+22-48-9 [SpringApplicationShutdownHook] [INFO] --- HikariPool-1 - Shutdown completed.
+22-52-9 [main] [INFO] --- Neither @ContextConfiguration nor @ContextHierarchy found for test class [com.stackroute.myfirstspringbootrest.controller.EmployeeControllerIntegrationTest], using SpringBootContextLoader
+22-52-9 [main] [INFO] --- Could not detect default resource locations for test class [com.stackroute.myfirstspringbootrest.controller.EmployeeControllerIntegrationTest]: no resource found for suffixes {-context.xml, Context.groovy}.
+22-52-9 [main] [INFO] --- Could not detect default configuration classes for test class [com.stackroute.myfirstspringbootrest.controller.EmployeeControllerIntegrationTest]: EmployeeControllerIntegrationTest does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+22-52-9 [main] [INFO] --- Found @SpringBootConfiguration com.stackroute.myfirstspringbootrest.MyFirstSpringBootRestApplication for test class com.stackroute.myfirstspringbootrest.controller.EmployeeControllerIntegrationTest
+22-52-9 [main] [INFO] --- Loaded default TestExecutionListener class names from location [META-INF/spring.factories]: [org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener, org.springframework.boot.test.autoconfigure.webservices.client.MockWebServiceServerTestExecutionListener, org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener, org.springframework.test.context.event.ApplicationEventsTestExecutionListener, org.springframework.test.context.support.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener, org.springframework.test.context.event.EventPublishingTestExecutionListener]
+22-52-9 [main] [INFO] --- Using TestExecutionListeners: [org.springframework.test.context.web.ServletTestExecutionListener@439a8f59, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener@61861a29, org.springframework.test.context.event.ApplicationEventsTestExecutionListener@31024624, org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener@25bcd0c7, org.springframework.boot.test.autoconfigure.SpringBootDependencyInjectionTestExecutionListener@32cb636e, org.springframework.test.context.support.DirtiesContextTestExecutionListener@63cd604c, org.springframework.test.context.transaction.TransactionalTestExecutionListener@40dd3977, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener@3a4e343, org.springframework.test.context.event.EventPublishingTestExecutionListener@6a1d204a, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener@62dae245, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener@4b6579e8, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener@6fff253c, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener@6c6357f9, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener@591e58fa, org.springframework.boot.test.autoconfigure.webservices.client.MockWebServiceServerTestExecutionListener@3954d008]
+22-52-9 [main] [INFO] --- Starting EmployeeControllerIntegrationTest using Java 11 on STR-BLR-DEEPAN with PID 43722 (started by deepan in /home/deepan/Desktop/cgi-canada-spring-ws/my-first-spring-boot-rest)
+22-52-9 [main] [INFO] --- No active profile set, falling back to 1 default profile: "default"
+22-52-9 [main] [INFO] --- Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+22-52-9 [main] [INFO] --- Finished Spring Data repository scanning in 91 ms. Found 1 JPA repository interfaces.
+22-52-9 [main] [INFO] --- HHH000204: Processing PersistenceUnitInfo [name: default]
+22-52-9 [main] [INFO] --- HHH000412: Hibernate ORM core version 5.6.5.Final
+22-52-9 [main] [INFO] --- HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+22-52-9 [main] [INFO] --- HikariPool-1 - Starting...
+22-53-9 [main] [INFO] --- HikariPool-1 - Start completed.
+22-53-9 [main] [INFO] --- HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+22-53-9 [main] [INFO] --- HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+22-53-9 [main] [INFO] --- Initialized JPA EntityManagerFactory for persistence unit 'default'
+22-53-9 [main] [WARN] --- spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+22-53-9 [main] [INFO] --- H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:cgicanada'
+22-53-9 [main] [INFO] --- Started EmployeeControllerIntegrationTest in 13.42 seconds (JVM running for 15.908)
+22-53-9 [main] [INFO] --- Initializing Spring TestDispatcherServlet ''
+22-53-9 [main] [INFO] --- Initializing Servlet ''
+22-53-9 [main] [INFO] --- Completed initialization in 1 ms
+22-53-9 [main] [INFO] --- getEmployeeByIdHandler Method started its execution with [400]
+22-53-9 [main] [INFO] --- getEmployeeById Method throwing exception com.stackroute.myfirstspringbootrest.exceptions.EmployeeWithTheIDNotPresentException
+22-53-9 [main] [INFO] --- getEmployeeByIdHandler Method Returns Value: <404 NOT_FOUND Not Found,Employee Not Found,[]>
+22-53-9 [main] [INFO] --- getEmployeeByIdHandler Method completed its execution with
+22-53-9 [main] [INFO] --- getEmployeeByIdHandler Method started its execution with [400]
+22-53-9 [main] [INFO] --- getEmployeeByIdHandler Method completed its execution with
+22-53-9 [SpringApplicationShutdownHook] [INFO] --- Closing JPA EntityManagerFactory for persistence unit 'default'
+22-53-9 [SpringApplicationShutdownHook] [INFO] --- HikariPool-1 - Shutdown initiated...
+22-53-9 [SpringApplicationShutdownHook] [INFO] --- HikariPool-1 - Shutdown completed.
+22-00-9 [main] [INFO] --- Initializing Spring TestDispatcherServlet ''
+22-00-9 [main] [INFO] --- Initializing Servlet ''
+22-00-9 [main] [INFO] --- Completed initialization in 5 ms
+22-07-9 [main] [INFO] --- Neither @ContextConfiguration nor @ContextHierarchy found for test class [com.stackroute.myfirstspringbootrest.controller.EmployeeControllerIntegrationTest], using SpringBootContextLoader
+22-07-9 [main] [INFO] --- Could not detect default resource locations for test class [com.stackroute.myfirstspringbootrest.controller.EmployeeControllerIntegrationTest]: no resource found for suffixes {-context.xml, Context.groovy}.
+22-07-9 [main] [INFO] --- Could not detect default configuration classes for test class [com.stackroute.myfirstspringbootrest.controller.EmployeeControllerIntegrationTest]: EmployeeControllerIntegrationTest does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+22-08-9 [main] [INFO] --- Found @SpringBootConfiguration com.stackroute.myfirstspringbootrest.MyFirstSpringBootRestApplication for test class com.stackroute.myfirstspringbootrest.controller.EmployeeControllerIntegrationTest
+22-08-9 [main] [INFO] --- Loaded default TestExecutionListener class names from location [META-INF/spring.factories]: [org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener, org.springframework.boot.test.autoconfigure.webservices.client.MockWebServiceServerTestExecutionListener, org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener, org.springframework.test.context.event.ApplicationEventsTestExecutionListener, org.springframework.test.context.support.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener, org.springframework.test.context.event.EventPublishingTestExecutionListener]
+22-08-9 [main] [INFO] --- Using TestExecutionListeners: [org.springframework.test.context.web.ServletTestExecutionListener@756cf158, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener@3f2ef586, org.springframework.test.context.event.ApplicationEventsTestExecutionListener@751d3241, org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener@76c7beb3, org.springframework.boot.test.autoconfigure.SpringBootDependencyInjectionTestExecutionListener@64337702, org.springframework.test.context.support.DirtiesContextTestExecutionListener@2cf92cc7, org.springframework.test.context.transaction.TransactionalTestExecutionListener@30ea8c23, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener@7b139eab, org.springframework.test.context.event.EventPublishingTestExecutionListener@4e76dac, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener@611df6e3, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener@5f2f577, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener@6273c5a4, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener@5d465e4b, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener@53e211ee, org.springframework.boot.test.autoconfigure.webservices.client.MockWebServiceServerTestExecutionListener@41a90fa8]
+22-08-9 [main] [INFO] --- Starting EmployeeControllerIntegrationTest using Java 11 on STR-BLR-DEEPAN with PID 44487 (started by deepan in /home/deepan/Desktop/cgi-canada-spring-ws/my-first-spring-boot-rest)
+22-08-9 [main] [INFO] --- No active profile set, falling back to 1 default profile: "default"
+22-08-9 [main] [INFO] --- Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+22-08-9 [main] [INFO] --- Finished Spring Data repository scanning in 177 ms. Found 1 JPA repository interfaces.
+22-08-9 [main] [INFO] --- HHH000204: Processing PersistenceUnitInfo [name: default]
+22-08-9 [main] [INFO] --- HHH000412: Hibernate ORM core version 5.6.5.Final
+22-08-9 [main] [INFO] --- HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+22-08-9 [main] [INFO] --- HikariPool-1 - Starting...
+22-08-9 [main] [INFO] --- HikariPool-1 - Start completed.
+22-08-9 [main] [INFO] --- HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+22-08-9 [main] [INFO] --- HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+22-08-9 [main] [INFO] --- Initialized JPA EntityManagerFactory for persistence unit 'default'
+22-08-9 [main] [WARN] --- spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+22-08-9 [main] [INFO] --- H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:cgicanada'
+22-08-9 [main] [INFO] --- Started EmployeeControllerIntegrationTest in 16.518 seconds (JVM running for 19.525)
+22-08-9 [main] [INFO] --- Initializing Spring TestDispatcherServlet ''
+22-08-9 [main] [INFO] --- Initializing Servlet ''
+22-08-9 [main] [INFO] --- Completed initialization in 0 ms
+22-08-9 [SpringApplicationShutdownHook] [INFO] --- Closing JPA EntityManagerFactory for persistence unit 'default'
+22-08-9 [SpringApplicationShutdownHook] [INFO] --- HikariPool-1 - Shutdown initiated...
+22-08-9 [SpringApplicationShutdownHook] [INFO] --- HikariPool-1 - Shutdown completed.
+22-14-9 [main] [INFO] --- Neither @ContextConfiguration nor @ContextHierarchy found for test class [com.stackroute.myfirstspringbootrest.controller.EmployeeControllerIntegrationTest], using SpringBootContextLoader
+22-14-9 [main] [INFO] --- Could not detect default resource locations for test class [com.stackroute.myfirstspringbootrest.controller.EmployeeControllerIntegrationTest]: no resource found for suffixes {-context.xml, Context.groovy}.
+22-14-9 [main] [INFO] --- Could not detect default configuration classes for test class [com.stackroute.myfirstspringbootrest.controller.EmployeeControllerIntegrationTest]: EmployeeControllerIntegrationTest does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+22-14-9 [main] [INFO] --- Found @SpringBootConfiguration com.stackroute.myfirstspringbootrest.MyFirstSpringBootRestApplication for test class com.stackroute.myfirstspringbootrest.controller.EmployeeControllerIntegrationTest
+22-14-9 [main] [INFO] --- Loaded default TestExecutionListener class names from location [META-INF/spring.factories]: [org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener, org.springframework.boot.test.autoconfigure.webservices.client.MockWebServiceServerTestExecutionListener, org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener, org.springframework.test.context.event.ApplicationEventsTestExecutionListener, org.springframework.test.context.support.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener, org.springframework.test.context.event.EventPublishingTestExecutionListener]
+22-14-9 [main] [INFO] --- Using TestExecutionListeners: [org.springframework.test.context.web.ServletTestExecutionListener@60bdf15d, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener@47da3952, org.springframework.test.context.event.ApplicationEventsTestExecutionListener@51e4ccb3, org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener@46e8a539, org.springframework.boot.test.autoconfigure.SpringBootDependencyInjectionTestExecutionListener@495083a0, org.springframework.test.context.support.DirtiesContextTestExecutionListener@5fd62371, org.springframework.test.context.transaction.TransactionalTestExecutionListener@28a0fd6c, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener@2b62442c, org.springframework.test.context.event.EventPublishingTestExecutionListener@66629f63, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener@841e575, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener@27a5328c, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener@1e5f4170, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener@6c345c5f, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener@6b5966e1, org.springframework.boot.test.autoconfigure.webservices.client.MockWebServiceServerTestExecutionListener@65e61854]
+22-14-9 [main] [INFO] --- Starting EmployeeControllerIntegrationTest using Java 11 on STR-BLR-DEEPAN with PID 44995 (started by deepan in /home/deepan/Desktop/cgi-canada-spring-ws/my-first-spring-boot-rest)
+22-14-9 [main] [INFO] --- No active profile set, falling back to 1 default profile: "default"
+22-14-9 [main] [INFO] --- Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+22-14-9 [main] [INFO] --- Finished Spring Data repository scanning in 106 ms. Found 1 JPA repository interfaces.
+22-14-9 [main] [INFO] --- HHH000204: Processing PersistenceUnitInfo [name: default]
+22-14-9 [main] [INFO] --- HHH000412: Hibernate ORM core version 5.6.5.Final
+22-14-9 [main] [INFO] --- HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+22-14-9 [main] [INFO] --- HikariPool-1 - Starting...
+22-14-9 [main] [INFO] --- HikariPool-1 - Start completed.
+22-14-9 [main] [INFO] --- HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+22-14-9 [main] [INFO] --- HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+22-14-9 [main] [INFO] --- Initialized JPA EntityManagerFactory for persistence unit 'default'
+22-14-9 [main] [WARN] --- spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+22-14-9 [main] [INFO] --- H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:cgicanada'
+22-14-9 [main] [INFO] --- Started EmployeeControllerIntegrationTest in 14.127 seconds (JVM running for 16.788)
+22-14-9 [main] [INFO] --- Initializing Spring TestDispatcherServlet ''
+22-14-9 [main] [INFO] --- Initializing Servlet ''
+22-14-9 [main] [INFO] --- Completed initialization in 1 ms
+22-14-9 [main] [INFO] --- getEmployeeByIdHandler Method started its execution with [400]
+22-14-9 [main] [INFO] --- getEmployeeById Method throwing exception com.stackroute.myfirstspringbootrest.exceptions.EmployeeWithTheIDNotPresentException
+22-14-9 [main] [INFO] --- getEmployeeByIdHandler Method Returns Value: <404 NOT_FOUND Not Found,Employee Not Found,[]>
+22-14-9 [main] [INFO] --- getEmployeeByIdHandler Method completed its execution with
+22-14-9 [main] [INFO] --- getEmployeeByIdHandler Method started its execution with [400]
+22-14-9 [main] [INFO] --- getEmployeeByIdHandler Method completed its execution with
+22-14-9 [SpringApplicationShutdownHook] [INFO] --- Closing JPA EntityManagerFactory for persistence unit 'default'
+22-14-9 [SpringApplicationShutdownHook] [INFO] --- HikariPool-1 - Shutdown initiated...
+22-14-9 [SpringApplicationShutdownHook] [INFO] --- HikariPool-1 - Shutdown completed.
+22-16-9 [main] [INFO] --- Neither @ContextConfiguration nor @ContextHierarchy found for test class [com.stackroute.myfirstspringbootrest.controller.EmployeeControllerIntegrationTest], using SpringBootContextLoader
+22-16-9 [main] [INFO] --- Could not detect default resource locations for test class [com.stackroute.myfirstspringbootrest.controller.EmployeeControllerIntegrationTest]: no resource found for suffixes {-context.xml, Context.groovy}.
+22-16-9 [main] [INFO] --- Could not detect default configuration classes for test class [com.stackroute.myfirstspringbootrest.controller.EmployeeControllerIntegrationTest]: EmployeeControllerIntegrationTest does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+22-16-9 [main] [INFO] --- Found @SpringBootConfiguration com.stackroute.myfirstspringbootrest.MyFirstSpringBootRestApplication for test class com.stackroute.myfirstspringbootrest.controller.EmployeeControllerIntegrationTest
+22-16-9 [main] [INFO] --- Loaded default TestExecutionListener class names from location [META-INF/spring.factories]: [org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener, org.springframework.boot.test.autoconfigure.webservices.client.MockWebServiceServerTestExecutionListener, org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener, org.springframework.test.context.event.ApplicationEventsTestExecutionListener, org.springframework.test.context.support.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener, org.springframework.test.context.event.EventPublishingTestExecutionListener]
+22-16-9 [main] [INFO] --- Using TestExecutionListeners: [org.springframework.test.context.web.ServletTestExecutionListener@60bdf15d, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener@47da3952, org.springframework.test.context.event.ApplicationEventsTestExecutionListener@51e4ccb3, org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener@46e8a539, org.springframework.boot.test.autoconfigure.SpringBootDependencyInjectionTestExecutionListener@495083a0, org.springframework.test.context.support.DirtiesContextTestExecutionListener@5fd62371, org.springframework.test.context.transaction.TransactionalTestExecutionListener@28a0fd6c, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener@2b62442c, org.springframework.test.context.event.EventPublishingTestExecutionListener@66629f63, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener@841e575, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener@27a5328c, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener@1e5f4170, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener@6c345c5f, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener@6b5966e1, org.springframework.boot.test.autoconfigure.webservices.client.MockWebServiceServerTestExecutionListener@65e61854]
+22-16-9 [main] [INFO] --- Starting EmployeeControllerIntegrationTest using Java 11 on STR-BLR-DEEPAN with PID 45146 (started by deepan in /home/deepan/Desktop/cgi-canada-spring-ws/my-first-spring-boot-rest)
+22-16-9 [main] [INFO] --- No active profile set, falling back to 1 default profile: "default"
+22-16-9 [main] [INFO] --- Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+22-16-9 [main] [INFO] --- Finished Spring Data repository scanning in 99 ms. Found 1 JPA repository interfaces.
+22-16-9 [main] [INFO] --- HHH000204: Processing PersistenceUnitInfo [name: default]
+22-16-9 [main] [INFO] --- HHH000412: Hibernate ORM core version 5.6.5.Final
+22-16-9 [main] [INFO] --- HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+22-16-9 [main] [INFO] --- HikariPool-1 - Starting...
+22-16-9 [main] [INFO] --- HikariPool-1 - Start completed.
+22-16-9 [main] [INFO] --- HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+22-16-9 [main] [INFO] --- HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+22-16-9 [main] [INFO] --- Initialized JPA EntityManagerFactory for persistence unit 'default'
+22-16-9 [main] [WARN] --- spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+22-16-9 [main] [INFO] --- H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:cgicanada'
+22-16-9 [main] [INFO] --- Started EmployeeControllerIntegrationTest in 13.183 seconds (JVM running for 15.559)
+22-16-9 [main] [INFO] --- Initializing Spring TestDispatcherServlet ''
+22-16-9 [main] [INFO] --- Initializing Servlet ''
+22-16-9 [main] [INFO] --- Completed initialization in 1 ms
+22-16-9 [main] [INFO] --- getEmployeeByIdHandler Method started its execution with [400]
+22-16-9 [main] [INFO] --- getEmployeeById Method throwing exception com.stackroute.myfirstspringbootrest.exceptions.EmployeeWithTheIDNotPresentException
+22-16-9 [main] [INFO] --- getEmployeeByIdHandler Method Returns Value: <404 NOT_FOUND Not Found,Employee Not Found,[]>
+22-16-9 [main] [INFO] --- getEmployeeByIdHandler Method completed its execution with
+22-16-9 [main] [INFO] --- getEmployeeByIdHandler Method started its execution with [400]
+22-16-9 [main] [INFO] --- getEmployeeByIdHandler Method Returns Value: <200 OK OK,Employee [id=400, fname=Deepan, salary=34000, joiningDate=2022-03-09, performanceScore=[78, 88, 85], account=Account [accno=0, bank=ABC, balance=0.0]],[]>
+22-16-9 [main] [INFO] --- getEmployeeByIdHandler Method completed its execution with
+22-16-9 [SpringApplicationShutdownHook] [INFO] --- Closing JPA EntityManagerFactory for persistence unit 'default'
+22-16-9 [SpringApplicationShutdownHook] [INFO] --- HikariPool-1 - Shutdown initiated...
+22-16-9 [SpringApplicationShutdownHook] [INFO] --- HikariPool-1 - Shutdown completed.
